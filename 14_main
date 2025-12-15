@@ -1,0 +1,15 @@
+import 'part_14class.dart';
+
+main(){
+
+  hotel kgf = hotel("Sonar Bangla");
+  print(kgf.name);
+  print(kgf.nmb);
+  kgf.order();
+  //kgf.shopping("");
+  kgf.serve("");
+  kgf.newid=0516;
+  print(kgf.nmb);
+
+
+}

@@ -1,0 +1,23 @@
+class Big_brother{
+  String name;
+  Big_brother(this.name);
+  String house= "Dhaka";
+  String Bike = "Yamaha";
+  String device = "Samsung_s25 ultra";
+
+}
+income_source(){
+  print("Hacker");
+}
+class small_brother extends Big_brother{
+ String name;
+  small_brother(this.name):super("Toufik");
+
+}
+main(){
+  small_brother Takrim = small_brother("Takrim");
+ print(Takrim.name);
+ print(Takrim.Bike="BMW");
+ print(Takrim.house);
+
+}

@@ -1,0 +1,28 @@
+class hotel{
+  String name;
+  hotel(this.name);
+  int _id = 34;
+  int get nmb => _id;
+  set newid(int id){
+    id=21;
+    _id=id;
+  }
+
+
+  order(){
+    //print(_id);
+    String item ="Juice";
+    print(item);
+    _shopping(item);
+    print("Buy Lemon");
+
+  }
+
+  _shopping(String item){
+
+  }
+  serve(String item){
+    print("serve Done");
+  }
+
+}
